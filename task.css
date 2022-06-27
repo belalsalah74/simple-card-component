@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 61.5%;
+    font-weight: 500;
+}
+
+body {
+    font-family: oswald, 'Fira Sans', Inter;
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.container {
+    background-color: #743fd7;
+    color: #fff;
+    width: 80rem;
+    margin: auto;
+    margin-bottom: 3.5rem;
+    text-align: left;
+    padding: 2rem;
+    box-shadow: 1px 2px 2px 1px rgba(37, 37, 37, 0.26);
+    border-radius: 8px;
+}
+
+p::first-letter,
+li::first-letter {
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 300px;
+    margin-bottom: 3rem;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 5rem;
+    color: #6131bb;
+}
+
+span {
+    font-weight: bold;
+
+}
+
+.ul {
+    list-style: none;
+    margin: 0;
+}
+
+.li {
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid transparent;
+}
+
+.mark {
+    color: rgb(250, 220, 164);
+    border-color: rgb(216, 161, 58);
+}
+
+.link {
+    background-color: #edd8bd;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .3rem .5rem;
+    color: black;
+    margin-left: .5rem;
+}
+
+.btn {
+    background-color: #ffc20b;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: black;
+}
+
+.footer p {
+    margin-top: 3rem;
+    color: gray;
+}
