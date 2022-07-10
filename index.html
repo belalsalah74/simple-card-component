@@ -2,34 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Daily Challenge</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
-      rel="stylesheet"
-    />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="img-container">
-        <img class="img1" src="./award.png" alt="Trophy" />
-      </div>
-      <h1 class="header challenge">my Challenge for <span class="day">Wednesday</span></h1>
-      <p class="p learn">
-        Learn about the basics of web development - specifically dive into HTML
-        & CSS.
-      </p>
-    </div>
-    <p class="p acheive">Explore the <a class="full-week"href="/week.html">full week</a></p>
+    <header>
+      <h1 class="header">HTML & CSS Basics Summary</h1>
+      <img
+        src="./NicePng_css3-logo-png_1415510.png"
+        alt="html and css logo"
+        class="logo"
+      />
+    </header>
+    <main class="container">
+      <section class="section">
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (Hyper Text Markup Lnguage) is used to define our page content,
+          structure and meaning.
+        </p>
+        <p>
+          You <strong>don't'</strong> use it for styling purposes. Use CSS for
+          that instead
+        </p>
+        <ul class="ul">
+          <li class="li mark">
+            HTML uses "elements" to describe (anotate) content
+          </li>
+          <li class="li">
+            HTML elements typically have an oppening tag, content and then a
+            closing tag
+          </li>
+          <li class="li mark">
+            You can also have void (empty) elements like images
+          </li>
+          <li class="li mark">
+            You can also configure elements with attributes
+          </li>
+          <li class="li">
+            There's a long list of available elements but youll gain experience
+            over time, no worries.
+          </li>
+        </ul>
+        <p class="">
+          Learn more about all available HTML elements on
+          <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/html/Reference" class="link">the MDN HTML element reference</a>
+        </p>
+      </section>
+      <section class="section">
+        <h2>CSS Summary</h2>
+        <p>
+          CSS (Cascading Style Sheets) is used for styling your page content.
+        </p>
+        <ul class="ul">
+          <li class="li">styles are assigned via property-value pairs</li>
+          <li class="li">you can assign styles via the "stylea" attribute</li>
+          <li class="li mark">
+            To avoid code duplication, you typically use global styles (eg. via
+            the style element)
+          </li>
+          <li class="li">
+            alternatively you can work with external stylesheet fules which you
+            "link" to
+          </li>
+          <li class="li mark">
+            When working with CSS concepts like inheritance specifity and the
+            box model are understood
+          </li>
+        </ul>
+        <p>
+          Learn more about all available CSS properties and values on
+          <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" class="link">the MDN CSS element reference</a>
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="" target="_blank" class="btn">Download PDF Summary</a>
+      <p>&copy; Belal Salah</p>
+    </footer>
   </body>
 </html>
